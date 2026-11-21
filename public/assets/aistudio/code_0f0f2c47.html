@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Syifa Danar Nadiyah Siregar — Portfolio &amp; Content Creator</title>
+<!-- Google Fonts: Fraunces (Retro Serif) & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 CDN with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script data-purpose="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'cream-bg': '#FBF8F1',
+            'cream-card': '#F3EEE3',
+            'cream-alt': '#EFE7D8',
+            'burgundy-main': '#4A151B',
+            'burgundy-soft': '#6E262E',
+            'burgundy-pill': '#380E13',
+            'text-muted': '#6B5E5E',
+            'stripe-blue': '#D4E5F0',
+            'gold-accent': '#D4AF37',
+            'gold-border': '#C89D31'
+          },
+          fontFamily: {
+            serif: ['Fraunces', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom Typography & Specific Animations -->
+<style data-purpose="typography">
+    body {
+      background-color: #FBF8F1;
+      color: #4A151B;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+    }
+    h1, h2, h3, .font-editorial {
+      font-family: 'Fraunces', Georgia, serif;
+    }
+  </style>
+<!-- Striped Pattern Header Background Styles -->
+<style data-purpose="striped-decorations">
+    .stripe-banner {
+      background: repeating-linear-gradient(
+        90deg,
+        #D4E5F0,
+        #D4E5F0 22px,
+        #FBF8F1 22px,
+        #FBF8F1 44px
+      );
+    }
+    .vintage-frame {
+      box-shadow: 0 16px 36px -10px rgba(74, 21, 27, 0.22), 0 0 0 10px #D4AF37, 0 0 0 14px #AA8220;
+    }
+  </style>
+</head>
+<body class="bg-cream-bg text-burgundy-main selection:bg-burgundy-soft selection:text-white">
+<!-- BEGIN: Navigation -->
+<header class="sticky top-0 z-50 bg-[#FBF8F1]/90 backdrop-blur-md border-b border-[#4A151B]/10 transition-all duration-300">
+<nav class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+<!-- Brand Initials / Signature -->
+<a class="text-xl md:text-2xl font-serif font-bold tracking-tight text-burgundy-main hover:opacity-80 transition-opacity" href="#hero">
+        Syifa Danar Nadiyah<span class="text-gold-accent">.</span>
+</a>
+<!-- Menu Links -->
+<ul class="flex items-center space-x-6 md:space-x-10 text-sm md:text-base font-medium">
+<li>
+<a class="text-burgundy-main hover:text-burgundy-soft transition-colors duration-200" href="#about">About Me</a>
+</li>
+<li>
+<a class="text-burgundy-main hover:text-burgundy-soft transition-colors duration-200" href="#content-style">My Work</a>
+</li>
+<li>
+<a class="text-burgundy-main hover:text-burgundy-soft transition-colors duration-200" href="#reviews">Review</a>
+</li>
+<li>
+<a class="text-burgundy-main hover:text-burgundy-soft transition-colors duration-200" href="#services">Services</a>
+</li>
+<li>
+<a class="text-burgundy-main hover:text-burgundy-soft transition-colors duration-200" href="#contacts">Contacts</a>
+</li>
+</ul>
+</nav>
+</header>
+<!-- END: Navigation -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="relative pt-12 pb-20 md:py-24 px-6 max-w-6xl mx-auto overflow-hidden" id="hero">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Hero Text Column -->
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cream-card border border-burgundy-main/15 text-xs font-semibold uppercase tracking-wider text-burgundy-soft">
+<span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+            Informatics Engineering &amp; Content Creator
+          </div>
+<h1 class="text-4xl sm:text-5xl md:text-6xl xl:text-[68px] font-bold tracking-tight text-burgundy-main leading-[1.08]">
+            Real stories.<br/>
+            Creative visuals.<br/>
+            Content that connects.
+          </h1>
+<p class="text-lg md:text-xl text-text-muted max-w-xl leading-relaxed">
+            Hi, I'm <strong class="text-burgundy-main font-semibold">Syifa Danar Nadiyah</strong> — Informatics Engineering Student at IT PLN &amp; Content Creator passionate about technology, literacy, and impactful visual storytelling.
+          </p>
+<div class="pt-2 flex flex-wrap items-center gap-4">
+<a class="inline-flex items-center justify-center px-8 py-4 bg-burgundy-main text-[#FBF8F1] rounded-full text-base font-semibold shadow-md hover:bg-burgundy-soft hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300" href="#content-style">
+              Explore My Work ↗
+            </a>
+<a class="inline-flex items-center justify-center px-6 py-4 border border-burgundy-main/30 text-burgundy-main rounded-full text-base font-semibold hover:bg-cream-card transition-all duration-300" href="#contacts">
+              Get in Touch
+            </a>
+</div>
+</div>
+<!-- Hero Visual Column -->
+<div class="lg:col-span-5 relative flex justify-center items-center">
+<!-- Warm Oval Decorative Backdrop -->
+<div class="absolute w-72 h-88 sm:w-80 sm:h-96 md:w-96 md:h-[430px] rounded-[180px] bg-cream-card border border-burgundy-main/10 shadow-inner -z-10 transform -rotate-1"></div>
+<!-- Hero Portrait Container -->
+<div class="relative w-64 sm:w-72 md:w-80">
+<img alt="Portrait of Syifa Danar Nadiyah" class="w-full h-auto object-cover rounded-3xl drop-shadow-xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgETTPjGu3MfNHKD3kWASRTDoG-1OQGOiqsXGByLbx_GbDtQUDKuO-x9pq8Av4FvfB4zT1u6Tg8KcPzbD_nX7wCc8iR4Tsgps-KdAxlRl06tpZO9gsO3Y7583odWYiRKxB_cRdacWfapnuYOwpXm4epH6JtJtLQtsQiQ8Gb9vHuRR4WVcDHcs9OB8_mrP4q4tk3MlamM6qswdtwqJfdKKzLbiEgW2yuv4WFVpi56s1hUpslwu37Bcy"/>
+<!-- Floating Badge Top Left -->
+<div class="absolute -top-4 -left-6 bg-cream-card/95 backdrop-blur-sm border border-burgundy-main/20 text-burgundy-main px-4 py-2 rounded-full text-xs font-semibold shadow-md flex items-center gap-2">
+<span class="text-gold-accent font-bold">✦</span> Top 200 USU Olympiad
+            </div>
+<!-- Floating Badge Bottom Right -->
+<div class="absolute -bottom-4 -right-4 bg-cream-card/95 backdrop-blur-sm border border-burgundy-main/20 text-burgundy-main px-4 py-2 rounded-full text-xs font-semibold shadow-md flex items-center gap-2">
+<span class="text-gold-accent font-bold">✦</span> Juara 5 Konten Literasi
+            </div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: AboutMeSection -->
+<section class="py-20 bg-cream-card border-y border-burgundy-main/10 px-6" id="about">
+<div class="max-w-6xl mx-auto space-y-16">
+<!-- Top Row: Editorial Bio & Golden Frame -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Left: Ornate Framed Photo -->
+<div class="lg:col-span-5 flex justify-center">
+<div class="relative p-2 bg-gradient-to-tr from-amber-700 via-yellow-500 to-amber-600 rounded-2xl shadow-xl transform -rotate-2 hover:rotate-0 transition-transform duration-300">
+<div class="p-3 bg-cream-bg rounded-xl border border-amber-900/20">
+<img alt="Syifa Danar Nadiyah in Classic Frame" class="w-56 sm:w-64 h-72 object-cover object-top rounded-lg shadow-inner" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgETTPjGu3MfNHKD3kWASRTDoG-1OQGOiqsXGByLbx_GbDtQUDKuO-x9pq8Av4FvfB4zT1u6Tg8KcPzbD_nX7wCc8iR4Tsgps-KdAxlRl06tpZO9gsO3Y7583odWYiRKxB_cRdacWfapnuYOwpXm4epH6JtJtLQtsQiQ8Gb9vHuRR4WVcDHcs9OB8_mrP4q4tk3MlamM6qswdtwqJfdKKzLbiEgW2yuv4WFVpi56s1hUpslwu37Bcy"/>
+</div>
+</div>
+</div>
+<!-- Right: Editorial Narrative -->
+<div class="lg:col-span-7 space-y-4">
+<span class="text-xs uppercase tracking-widest text-burgundy-soft font-bold">A LITTLE ABOUT ME</span>
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold font-serif text-burgundy-main leading-tight">
+              Creative by Nature,<br class="hidden sm:inline"/> curious by Heart.
+            </h2>
+<div class="space-y-4 text-base md:text-lg text-text-muted leading-relaxed">
+<p>
+                Saya adalah mahasiswa <strong class="text-burgundy-main font-semibold">Teknik Informatika (IT PLN)</strong> berlatar belakang jurusan IPA yang memadukan logika sistem, problem solving, dan kecintaan terhadap dunia literasi serta kreasi visual.
+              </p>
+<p>
+                Melalui eksplorasi konten edukatif dan estetis, saya percaya setiap pesan dapat disampaikan secara bermakna melalui visual yang berkarakter, relevan dengan audiens, serta berlandaskan integritas berpikir analitis.
+              </p>
+<p class="font-serif italic text-burgundy-main font-semibold text-lg">
+                Let's bring your vision to life.
+              </p>
+</div>
+</div>
+</div>
+<!-- Bottom Row: 3-Column Experience & Skills Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-10 border-t border-burgundy-main/15">
+<!-- Column 1: Experience -->
+<div class="space-y-4">
+<h3 class="text-sm font-bold uppercase tracking-wider text-burgundy-main border-b border-burgundy-main/20 pb-2 flex items-center gap-2">
+<span>●</span> EXPERIENCE
+            </h3>
+<ul class="space-y-4 text-sm">
+<li class="space-y-1">
+<span class="text-xs font-semibold text-text-muted">2023 – 2025</span>
+<p class="font-bold text-burgundy-main text-base">Sekretaris Organisasi</p>
+<p class="text-text-muted">English Club SMA Islam Plus Al Fatih</p>
+</li>
+<li class="space-y-1">
+<span class="text-xs font-semibold text-text-muted">2024 – 2025</span>
+<p class="font-bold text-burgundy-main text-base">Divisi Kreativitas</p>
+<p class="text-text-muted">OSIS SMA Islam Plus Al Fatih</p>
+</li>
+<li class="space-y-1">
+<span class="text-xs font-semibold text-text-muted">2023 – 2024</span>
+<p class="font-bold text-burgundy-main text-base">Anggota Aktif</p>
+<p class="text-text-muted">Palang Merah Remaja (PMR) &amp; Tarung Derajat</p>
+</li>
+</ul>
+</div>
+<!-- Column 2: Education & Skills -->
+<div class="space-y-6">
+<!-- Education -->
+<div class="space-y-3">
+<h3 class="text-sm font-bold uppercase tracking-wider text-burgundy-main border-b border-burgundy-main/20 pb-2 flex items-center gap-2">
+<span>●</span> EDUCATION
+              </h3>
+<ul class="space-y-3 text-sm">
+<li class="space-y-0.5">
+<span class="text-xs font-semibold text-text-muted">2026 – Sekarang</span>
+<p class="font-bold text-burgundy-main">S1 Teknik Informatika</p>
+<p class="text-text-muted">Institut Teknologi PLN (IT PLN)</p>
+</li>
+<li class="space-y-0.5">
+<span class="text-xs font-semibold text-text-muted">2023 – 2026</span>
+<p class="font-bold text-burgundy-main">Jurusan IPA</p>
+<p class="text-text-muted">SMA Islam Plus Al Fatih</p>
+</li>
+</ul>
+</div>
+<!-- Skills -->
+<div class="space-y-2">
+<h3 class="text-sm font-bold uppercase tracking-wider text-burgundy-main border-b border-burgundy-main/20 pb-2 flex items-center gap-2">
+<span>●</span> CORE SKILLS
+              </h3>
+<div class="flex flex-wrap gap-2 text-xs font-medium">
+<span class="px-2.5 py-1 rounded bg-cream-bg border border-burgundy-main/15 text-burgundy-main">Content Strategy</span>
+<span class="px-2.5 py-1 rounded bg-cream-bg border border-burgundy-main/15 text-burgundy-main">Problem Solving</span>
+<span class="px-2.5 py-1 rounded bg-cream-bg border border-burgundy-main/15 text-burgundy-main">Analytical Thinking</span>
+<span class="px-2.5 py-1 rounded bg-cream-bg border border-burgundy-main/15 text-burgundy-main">Public Speaking</span>
+<span class="px-2.5 py-1 rounded bg-cream-bg border border-burgundy-main/15 text-burgundy-main">Creative Storytelling</span>
+</div>
+</div>
+</div>
+<!-- Column 3: Tools & Achievements -->
+<div class="space-y-6">
+<!-- Tools -->
+<div class="space-y-3">
+<h3 class="text-sm font-bold uppercase tracking-wider text-burgundy-main border-b border-burgundy-main/20 pb-2 flex items-center gap-2">
+<span>●</span> TOOLS
+              </h3>
+<div class="grid grid-cols-5 gap-2 text-center text-xs">
+<div class="p-2 rounded bg-cream-bg border border-burgundy-main/15 hover:border-burgundy-main transition-colors">
+<div class="font-bold text-sky-700">Cn</div>
+<span class="text-[10px] text-text-muted">Canva</span>
+</div>
+<div class="p-2 rounded bg-cream-bg border border-burgundy-main/15 hover:border-burgundy-main transition-colors">
+<div class="font-bold text-black">Cp</div>
+<span class="text-[10px] text-text-muted">CapCut</span>
+</div>
+<div class="p-2 rounded bg-cream-bg border border-burgundy-main/15 hover:border-burgundy-main transition-colors">
+<div class="font-bold text-blue-700">W</div>
+<span class="text-[10px] text-text-muted">Word</span>
+</div>
+<div class="p-2 rounded bg-cream-bg border border-burgundy-main/15 hover:border-burgundy-main transition-colors">
+<div class="font-bold text-emerald-700">Xl</div>
+<span class="text-[10px] text-text-muted">Excel</span>
+</div>
+<div class="p-2 rounded bg-cream-bg border border-burgundy-main/15 hover:border-burgundy-main transition-colors">
+<div class="font-bold text-amber-700">Pt</div>
+<span class="text-[10px] text-text-muted">PPT</span>
+</div>
+</div>
+</div>
+<!-- Achievements -->
+<div class="space-y-3">
+<h3 class="text-sm font-bold uppercase tracking-wider text-burgundy-main border-b border-burgundy-main/20 pb-2 flex items-center gap-2">
+<span>●</span> PRESTASI
+              </h3>
+<ul class="space-y-3 text-xs leading-snug">
+<li class="p-2.5 rounded bg-cream-bg border border-burgundy-main/15 space-y-1">
+<div class="font-bold text-burgundy-main flex items-center gap-1.5">
+<span>🏆</span> Juara 5 Lomba Konten Literasi (2024)
+                  </div>
+<p class="text-text-muted">Festival Literasi Sumatera Utara — Balai Bahasa Provinsi Sumatera Utara</p>
+</li>
+<li class="p-2.5 rounded bg-cream-bg border border-burgundy-main/15 space-y-1">
+<div class="font-bold text-burgundy-main flex items-center gap-1.5">
+<span>🏅</span> Top 200 Nilai Tertinggi (2024)
+                  </div>
+<p class="text-text-muted">Dari 32.864 Peserta — Education Expo &amp; Science Olympiad USU</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: AboutMeSection -->
+<!-- BEGIN: ContentStyleAndHighlights -->
+<section class="py-20 relative" id="content-style">
+<div class="max-w-6xl mx-auto px-6 space-y-16">
+<!-- Retro Striped Top Header -->
+<div class="stripe-banner rounded-2xl border border-burgundy-main/15 p-8 md:p-12 text-center relative overflow-hidden">
+<div class="inline-block bg-cream-bg/95 px-8 py-3 rounded-full border border-burgundy-main/20 shadow-sm">
+<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold font-serif tracking-wide text-burgundy-main uppercase">
+              MY CONTENT STYLE
+            </h2>
+</div>
+</div>
+<!-- Central Showcase with 4 Burgundy Pills -->
+<div class="relative py-12 flex justify-center items-center">
+<!-- Background Vertical Decorative Bars -->
+<div class="absolute inset-0 flex justify-around opacity-30 pointer-events-none -z-10 px-8">
+<div class="w-8 h-full bg-stripe-blue rounded-full"></div>
+<div class="w-8 h-full bg-stripe-blue rounded-full"></div>
+<div class="w-8 h-full bg-stripe-blue rounded-full"></div>
+<div class="w-8 h-full bg-stripe-blue rounded-full"></div>
+</div>
+<!-- Surrounding Badges Layout -->
+<div class="w-full max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+<!-- Left Badges -->
+<div class="flex flex-col gap-6 items-center md:items-end order-2 md:order-1">
+<div class="bg-burgundy-main text-cream-bg px-6 py-4 rounded-2xl shadow-lg border border-burgundy-soft/40 text-center w-52 md:w-56 hover:scale-105 transition-transform duration-200">
+<span class="text-xs uppercase tracking-wider opacity-70 block mb-0.5">Focus 01</span>
+<span class="font-serif font-semibold text-base sm:text-lg">Technology &amp; Code</span>
+</div>
+<div class="bg-burgundy-main text-cream-bg px-6 py-4 rounded-2xl shadow-lg border border-burgundy-soft/40 text-center w-52 md:w-56 hover:scale-105 transition-transform duration-200">
+<span class="text-xs uppercase tracking-wider opacity-70 block mb-0.5">Focus 02</span>
+<span class="font-serif font-semibold text-base sm:text-lg">Literacy &amp; Content</span>
+</div>
+</div>
+<!-- Central Portrait Cutout -->
+<div class="flex justify-center order-1 md:order-2">
+<div class="relative w-60 sm:w-68">
+<div class="w-full h-80 rounded-full bg-cream-card border-2 border-burgundy-main/15 overflow-hidden shadow-2xl p-2 flex items-center justify-center">
+<img alt="Syifa Danar Nadiyah - Content Style" class="w-full h-full object-cover rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgETTPjGu3MfNHKD3kWASRTDoG-1OQGOiqsXGByLbx_GbDtQUDKuO-x9pq8Av4FvfB4zT1u6Tg8KcPzbD_nX7wCc8iR4Tsgps-KdAxlRl06tpZO9gsO3Y7583odWYiRKxB_cRdacWfapnuYOwpXm4epH6JtJtLQtsQiQ8Gb9vHuRR4WVcDHcs9OB8_mrP4q4tk3MlamM6qswdtwqJfdKKzLbiEgW2yuv4WFVpi56s1hUpslwu37Bcy"/>
+</div>
+</div>
+</div>
+<!-- Right Badges -->
+<div class="flex flex-col gap-6 items-center md:items-start order-3">
+<div class="bg-burgundy-main text-cream-bg px-6 py-4 rounded-2xl shadow-lg border border-burgundy-soft/40 text-center w-52 md:w-56 hover:scale-105 transition-transform duration-200">
+<span class="text-xs uppercase tracking-wider opacity-70 block mb-0.5">Focus 03</span>
+<span class="font-serif font-semibold text-base sm:text-lg">Public Speaking &amp; MC</span>
+</div>
+<div class="bg-burgundy-main text-cream-bg px-6 py-4 rounded-2xl shadow-lg border border-burgundy-soft/40 text-center w-52 md:w-56 hover:scale-105 transition-transform duration-200">
+<span class="text-xs uppercase tracking-wider opacity-70 block mb-0.5">Focus 04</span>
+<span class="font-serif font-semibold text-base sm:text-lg">Creative Storytelling</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Creator Highlights Stripe & Metric Counters -->
+<div class="stripe-banner rounded-2xl border border-burgundy-main/15 p-6 md:p-10 text-center space-y-6">
+<div class="inline-block bg-cream-bg px-6 py-2 rounded-full border border-burgundy-main/20">
+<h3 class="text-xl md:text-2xl font-serif font-bold text-burgundy-main tracking-wider uppercase">
+              CREATOR HIGHLIGHTS
+            </h3>
+</div>
+<!-- Counter Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 max-w-4xl mx-auto">
+<div class="bg-cream-bg/95 p-6 rounded-2xl border border-burgundy-main/15 shadow-sm text-center">
+<span class="text-4xl md:text-5xl font-serif font-bold text-burgundy-main block mb-2">Top 200</span>
+<p class="text-sm text-text-muted">Dari 32.864 Peserta USU Science Olympiad 2024</p>
+</div>
+<div class="bg-cream-bg/95 p-6 rounded-2xl border border-burgundy-main/15 shadow-sm text-center">
+<span class="text-4xl md:text-5xl font-serif font-bold text-burgundy-main block mb-2">Juara 5</span>
+<p class="text-sm text-text-muted">Festival Literasi Prov. Sumatera Utara 2024</p>
+</div>
+<div class="bg-cream-bg/95 p-6 rounded-2xl border border-burgundy-main/15 shadow-sm text-center">
+<span class="text-4xl md:text-5xl font-serif font-bold text-burgundy-main block mb-2">100%</span>
+<p class="text-sm text-text-muted">Komitmen pada Analytical Thinking &amp; Problem Solving</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ContentStyleAndHighlights -->
+<!-- BEGIN: ReviewsSection -->
+<section class="py-20 bg-cream-card border-t border-burgundy-main/10 px-6" id="reviews">
+<div class="max-w-6xl mx-auto space-y-12">
+<!-- Header Banner with Blue Stripes -->
+<div class="stripe-banner p-8 md:p-12 rounded-2xl border border-burgundy-main/15 text-center space-y-3">
+<span class="text-xs uppercase tracking-widest text-burgundy-soft font-bold block">KIND WORDS FROM COLLABORATORS</span>
+<h2 class="text-3xl md:text-4xl font-serif font-bold text-burgundy-main">
+            Good work, lovely people.
+          </h2>
+<p class="text-sm md:text-base text-text-muted max-w-lg mx-auto">
+            The best part of creating is building meaningful relationships along the way.
+          </p>
+</div>
+<!-- 3 Testimonial Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-cream-bg p-8 rounded-2xl border border-burgundy-main/15 shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-3">
+<div class="text-gold-accent tracking-widest text-lg">★★★★★</div>
+<p class="text-text-muted text-sm md:text-base italic leading-relaxed">
+                "Syifa memiliki kemampuan luar biasa dalam merapikan struktur organisasi dan administrasi. Detail-oriented sekaligus sangat kreatif dalam membuat bahan visual!"
+              </p>
+</div>
+<div class="pt-4 border-t border-burgundy-main/10 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-stripe-blue text-burgundy-main flex items-center justify-center font-bold font-serif text-sm">
+                EC
+              </div>
+<div>
+<p class="font-bold text-sm text-burgundy-main">English Club Mentor</p>
+<p class="text-xs text-text-muted">SMA Islam Plus Al Fatih</p>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-cream-bg p-8 rounded-2xl border border-burgundy-main/15 shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-3">
+<div class="text-gold-accent tracking-widest text-lg">★★★★★</div>
+<p class="text-text-muted text-sm md:text-base italic leading-relaxed">
+                "Konten literasi yang dikembangkan Syifa selalu mengalir natural dan punya pesan mendalam. Paham betul cara mengemas narasi yang relevan untuk audiens generasi muda."
+              </p>
+</div>
+<div class="pt-4 border-t border-burgundy-main/10 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-stripe-blue text-burgundy-main flex items-center justify-center font-bold font-serif text-sm">
+                BB
+              </div>
+<div>
+<p class="font-bold text-sm text-burgundy-main">Dewan Juri Literasi</p>
+<p class="text-xs text-text-muted">Balai Bahasa Sumatera Utara</p>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-cream-bg p-8 rounded-2xl border border-burgundy-main/15 shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-3">
+<div class="text-gold-accent tracking-widest text-lg">★★★★★</div>
+<p class="text-text-muted text-sm md:text-base italic leading-relaxed">
+                "Kombinasi pola pikir analitis mahasiswa teknik informatika dengan skill komunikasi yang tajam membuat kolaborasi dengan Syifa selalu efisien dan menyenangkan."
+              </p>
+</div>
+<div class="pt-4 border-t border-burgundy-main/10 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-stripe-blue text-burgundy-main flex items-center justify-center font-bold font-serif text-sm">
+                PL
+              </div>
+<div>
+<p class="font-bold text-sm text-burgundy-main">Rekan Kolaborator</p>
+<p class="text-xs text-text-muted">IT PLN Project Team</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ReviewsSection -->
+<!-- BEGIN: ServicesSection -->
+<section class="py-20 px-6" id="services">
+<div class="max-w-6xl mx-auto space-y-12">
+<!-- Header Banner with Blue Stripes -->
+<div class="stripe-banner p-8 md:p-12 rounded-2xl border border-burgundy-main/15 text-center space-y-3">
+<span class="text-xs uppercase tracking-widest text-burgundy-soft font-bold block">LET'S MAKE SOMETHING CREATIVE</span>
+<h2 class="text-3xl md:text-4xl font-serif font-bold text-burgundy-main">
+            Flexible packages for sweet ideas.
+          </h2>
+<p class="text-sm md:text-base text-text-muted max-w-lg mx-auto">
+            Every project is an opportunity to tell a story. Choose a package that fits your content goals, campaign needs, and creative direction.
+          </p>
+</div>
+<!-- 2 Package Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Package 01 -->
+<div class="bg-cream-card p-8 md:p-10 rounded-3xl border border-burgundy-main/15 shadow-md flex flex-col justify-between space-y-8">
+<div class="space-y-6">
+<div class="flex items-center justify-between border-b border-burgundy-main/10 pb-4">
+<span class="text-xs font-bold uppercase tracking-wider text-burgundy-soft">PACKAGE 01</span>
+<span class="text-xs bg-burgundy-main text-white px-3 py-1 rounded-full font-semibold">Visual &amp; Video</span>
+</div>
+<div>
+<h3 class="text-2xl md:text-3xl font-serif font-bold text-burgundy-main">
+                  Content &amp; Creative Strategy
+                </h3>
+<p class="text-text-muted text-sm mt-2">
+                  Cocok untuk organisasi, brand rintisan, atau campaign edukatif yang membutuhkan konten rapi dan berdaya tarik visual tinggi.
+                </p>
+</div>
+<ul class="space-y-3 text-sm text-burgundy-main font-medium">
+<li class="flex items-start gap-2.5">
+<span class="text-gold-accent font-bold">✔</span>
+<span>Canva Visual Branding &amp; Feeds Design</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="text-gold-accent font-bold">✔</span>
+<span>CapCut Short-Form Video Editing (Reels/TikTok)</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="text-gold-accent font-bold">✔</span>
+<span>Content Planning &amp; Storytelling Script</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="text-gold-accent font-bold">✔</span>
+<span>Educational &amp; Literacy-driven Copywriting</span>
+</li>
+</ul>
+</div>
+<div>
+<a class="w-full inline-flex items-center justify-center px-6 py-4 bg-burgundy-main text-cream-bg rounded-xl text-sm font-semibold tracking-wide hover:bg-burgundy-soft transition-colors shadow" href="#contacts">
+                ENQUIRE PACKAGE 01 ↗
+              </a>
+</div>
+</div>
+<!-- Package 02 -->
+<div class="bg-cream-card p-8 md:p-10 rounded-3xl border border-burgundy-main/15 shadow-md flex flex-col justify-between space-y-8">
+<div class="space-y-6">
+<div class="flex items-center justify-between border-b border-burgundy-main/10 pb-4">
+<span class="text-xs font-bold uppercase tracking-wider text-burgundy-soft">PACKAGE 02</span>
+<span class="text-xs bg-stripe-blue text-burgundy-main border border-burgundy-main/20 px-3 py-1 rounded-full font-semibold">Speaking &amp; Hosting</span>
+</div>
+<div>
+<h3 class="text-2xl md:text-3xl font-serif font-bold text-burgundy-main">
+                  Public Speaking &amp; Event Host
+                </h3>
+<p class="text-text-muted text-sm mt-2">
+                  Solusi pemandu acara (MC), moderator webinar, presentasi interaktif, serta kolaborasi kegiatan kepemudaan &amp; teknologi.
+                </p>
+</div>
+<ul class="space-y-3 text-sm text-burgundy-main font-medium">
+<li class="flex items-start gap-2.5">
+<span class="text-gold-accent font-bold">✔</span>
+<span>MC &amp; Host Acara Formal / Non-Formal</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="text-gold-accent font-bold">✔</span>
+<span>Moderator Diskusi Teknologi &amp; Literasi</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="text-gold-accent font-bold">✔</span>
+<span>Interactive Presentation Slides (PowerPoint)</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="text-gold-accent font-bold">✔</span>
+<span>Event Coordination &amp; Administrative Support</span>
+</li>
+</ul>
+</div>
+<div>
+<a class="w-full inline-flex items-center justify-center px-6 py-4 bg-burgundy-main text-cream-bg rounded-xl text-sm font-semibold tracking-wide hover:bg-burgundy-soft transition-colors shadow" href="#contacts">
+                ENQUIRE PACKAGE 02 ↗
+              </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ServicesSection -->
+<!-- BEGIN: ContactsSection -->
+<section class="py-20 bg-cream-card border-t border-burgundy-main/15 px-6" id="contacts">
+<div class="max-w-4xl mx-auto text-center space-y-8">
+<div class="space-y-3">
+<span class="text-xs uppercase tracking-widest text-burgundy-soft font-bold">GET IN TOUCH</span>
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-burgundy-main">
+            Let's Connect &amp; Collaborate
+          </h2>
+<p class="text-base md:text-lg text-text-muted max-w-xl mx-auto">
+            Have an exciting project, speaking engagement, or collaboration in mind? Feel free to reach out anytime!
+          </p>
+</div>
+<!-- Pill Action Buttons -->
+<div class="flex flex-wrap justify-center gap-4 pt-2">
+<!-- Email Button -->
+<a class="inline-flex items-center gap-3 px-8 py-4 bg-burgundy-main text-cream-bg rounded-full text-base font-semibold shadow hover:bg-burgundy-soft hover:-translate-y-0.5 transition-all" href="mailto:syifanadiyah870@gmail.com">
+<span>✉</span> syifanadiyah870@gmail.com
+          </a>
+<!-- WhatsApp Button -->
+<a class="inline-flex items-center gap-3 px-8 py-4 bg-emerald-800 text-cream-bg rounded-full text-base font-semibold shadow hover:bg-emerald-900 hover:-translate-y-0.5 transition-all" href="https://wa.me/6282184174045" rel="noopener noreferrer" target="_blank">
+<span>💬</span> WhatsApp (+62 821-8417-4045)
+          </a>
+</div>
+<!-- Location Indicator -->
+<div class="pt-4 flex items-center justify-center gap-2 text-sm text-text-muted">
+<span>📍</span>
+<span>Medan, Sumatera Utara  |  Jakarta (Institut Teknologi PLN)</span>
+</div>
+</div>
+</section>
+<!-- END: ContactsSection -->
+</main>
+<!-- BEGIN: Footer -->
+<footer class="bg-cream-bg py-8 border-t border-burgundy-main/10 text-center px-6">
+<div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-text-muted">
+<p>© 2025 Syifa Danar Nadiyah Siregar. All rights reserved.</p>
+<p class="font-serif italic text-burgundy-main">
+        Crafted with passion for Technology, Code &amp; Creative Literacy.
+      </p>
+</div>
+</footer>
+<!-- END: Footer -->
+</body></html>

@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream-bg: #FBF8F1;
+  --color-cream-card: #F3EEE3;
+  --color-cream-alt: #EFE7D8;
+  --color-burgundy-main: #4A151B;
+  --color-burgundy-soft: #6E262E;
+  --color-burgundy-pill: #380E13;
+  --color-text-muted: #6B5E5E;
+  --color-stripe-blue: #D4E5F0;
+  --color-gold-accent: #D4AF37;
+  --color-gold-border: #C89D31;
+  --color-accent-green: #128C7E;
+
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #FBF8F1;
+    color: #4A151B;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: "Fraunces", Georgia, serif;
+  }
+}
+
+.stripe-banner {
+  background: repeating-linear-gradient(
+    90deg,
+    #D4E5F0,
+    #D4E5F0 22px,
+    #FBF8F1 22px,
+    #FBF8F1 44px
+  );
+}
+
+.vintage-frame {
+  box-shadow:
+    0 16px 36px -10px rgba(74, 21, 27, 0.22),
+    0 0 0 10px #D4AF37,
+    0 0 0 14px #AA8220;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
